@@ -35,33 +35,33 @@ function App() {
           
         >
           <div className='bill hoffman'>
-            <p>"A person who is… not helping America"</p>
+            <p><a href="https://www.reuters.com/world/us/two-billionaire-harris-donors-hope-she-will-fire-ftc-chair-lina-khan-2024-07-26/" target='_blank'>"A person who is… not helping America"</a></p>
             <div>
-              <a href="https://www.reuters.com/world/us/two-billionaire-harris-donors-hope-she-will-fire-ftc-chair-lina-khan-2024-07-26/" target='_blank' className='name'>- Reid Hoffman</a>
+              <span className='name'>- Reid Hoffman</span>
               <p> Linked-In Founder, Microsoft Board Member, <span>Billionaire.</span></p>
             </div>
             <div className='caption'>image: <a href="https://commons.wikimedia.org/wiki/File:221017-D-BN624-0280_(52436096810)_(cropped).jpg" target='_blank'>US Secretary of Defense</a></div>
           </div>
           <div className='bill diller'>
-            <p>"I think she’s a dope."</p>
+            <p><a href="https://www.foxbusiness.com/politics/two-billionaire-harris-donors-want-her-fire-ftc-chair-lina-khan#" target='_blank'>"I think she's a dope."</a></p>
             <div>
-              <a href="https://www.foxbusiness.com/politics/two-billionaire-harris-donors-want-her-fire-ftc-chair-lina-khan#" target='_blank'  className='name'>- Barry Diller</a>
+              <span className='name'>- Barry Diller</span>
               <p>Fox Founder, Businessman, <span>Billionaire.</span></p>
             </div>
             <div className='caption'>image: <a href="https://en.wikipedia.org/wiki/Barry_Diller#/media/File:Barry_Diller_Shankbone_Metropolitan_Opera_2009.jpg" target='_blank' >David Shankbone</a></div>
           </div>
           <div className='bill'>
-            <p>“We all think the FTC has lost their center.”</p>
+            <p><a href="https://www.livemint.com/news/world/business-moguls-urge-harris-to-dump-biden-s-ftc-chair-lina-khan-11722451036463.html" target='_blank'>"We all think the FTC has lost their center."</a></p>
             <div>
-              <a href="https://www.livemint.com/news/world/business-moguls-urge-harris-to-dump-biden-s-ftc-chair-lina-khan-11722451036463.html" target='_blank'  className='name'>- Barry Sternlicht</a>
+              <span className='name'>- Barry Sternlicht</span>
               <p>Starwood Hotels Founder, Investment Fund CEO, <span>Billionaire.</span></p>
             </div>
             <div className='caption'>image: <a href="https://commons.wikimedia.org/wiki/File:Barry_sternlicht.jpg" target='_blank'> Christopher Michel</a></div>
           </div>
           <div className='bill kohsla'>
-            <p>"Not a rational human being."</p>
+            <p><a href="https://www.forbes.com/sites/johnkoetsier/2024/06/19/billionaire-investor-vinod-khosla-says-ftc-chair-lina-khan-not-a-rational-human-being/" target='_blank'>"Not a rational human being."</a></p>
             <div>
-              <a href="https://www.forbes.com/sites/johnkoetsier/2024/06/19/billionaire-investor-vinod-khosla-says-ftc-chair-lina-khan-not-a-rational-human-being/" target='_blank'  className='name'>- Vinod Kohsla</a>
+              <span className='name'>- Vinod Kohsla</span>
               <p>Sun Microsystems Founder, Venture Capitalist, <span>Billionaire.</span></p>
             </div>
             <div className='caption'>image: <a href="https://www.flickr.com/photos/x180" target='_blank'>James Duncan Davidson</a></div>
@@ -70,7 +70,7 @@ function App() {
       </div>
       <div className='quote container mx-auto'>
         We’ve given a lot of money,<br/>
-        <span className='underline'>I mean A LOT</span>. Is there <a href="https://www.levernews.com/dems-billionaire-tech-donor-presses-harris-to-fire-antitrust-regulator/" target='_blank'>no return on our investment</a>?
+        <span className='uline'>I mean A LOT</span>. Is there <a href="https://www.levernews.com/dems-billionaire-tech-donor-presses-harris-to-fire-antitrust-regulator/" target='_blank'>no return on our investment</a>?
       </div>
       <div className='alt'>
         <h3>Here are a few examples of the way she and her allies across the administration have attacked our ritzy way of life:</h3>

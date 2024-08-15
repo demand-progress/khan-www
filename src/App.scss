@@ -59,6 +59,17 @@ $pad: 20px;
   }
   a{
     color: $blue;
+    @media (hover: hover){
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  .uline{
+    background: url(./assets/imeanalotunderline.svg) no-repeat center bottom;
+    background-size: 100% auto;
+    display: inline-block;
+    padding-bottom: 7px;
   }
   .quote{
     padding: 20px 20px;
@@ -83,6 +94,9 @@ $pad: 20px;
       padding: 25px 15px 30px 160px;
       text-align: left;
       position: relative;
+      a {
+        color: $white;
+      }
       &.hoffman{
         background-image: url(./assets/reid_hoffman.png);
         background-size: 180px auto;
