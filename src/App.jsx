@@ -10,9 +10,9 @@ function App() {
 
   return (
     <div className='App'>
+      <header className='logo' />
       <div className='top'>
         <div className='container mx-auto'>
-          <header />
           <h1>
             Lina Khan stands up for the little guy.
             <span>
@@ -25,12 +25,14 @@ function App() {
       <div className='quote container mx-auto'>
         Lina Khan must be fired so we can continue our untrammeled profiteering.
       </div>
-      <div className='container mx-auto'>
+      <div className='containerx mx-auto'>
         <Carousel
           showArrows={false}
           showThumbs={false}
           showStatus={false}
+          autoPlay
           infiniteLoop
+          
         >
           <div className='bill hoffman'>
             <p>"A person who is… not helping America"</p>
